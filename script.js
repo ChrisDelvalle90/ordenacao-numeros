@@ -20,7 +20,6 @@ function adicionarNumero(){
         {
             cacheNumero += parseFloat(numeros[i])
         }
-        console.log(numeros)
         document.getElementById("novoNumero").value = ""
         document.getElementById("numAdicionado").innerText = numeros.join(" , ")
     }
